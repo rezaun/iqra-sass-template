@@ -1,0 +1,31 @@
+.process-area{
+    @include bg;
+    color: #fff;
+    .process {
+        display: grid;
+        grid-template-columns: repeat(4,24%);
+        column-gap: 30px;
+        .single-process {
+            h4 {
+                position: relative;
+                background: #ff7022;
+                padding: 10px;
+                font-size: 20px;
+                text-transform: capitalize;
+                border-radius: 5px;
+                span {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    background-color: tomato;
+                    padding: 10px 20px;
+                  }
+              }
+              p {
+                text-align: center;
+                margin-top: 20px;
+              }
+
+        }
+      }
+}

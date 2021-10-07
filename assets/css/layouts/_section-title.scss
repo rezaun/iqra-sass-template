@@ -1,0 +1,28 @@
+
+.section-title {
+    margin-bottom: 70px;
+    max-width: 700px;
+    margin: 0px auto 70px;
+    h4 {
+      font-size: 16px;
+    }
+    h2 {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 35px;
+      display: inline-block;
+      position: relative;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      &:before {
+          position: absolute;
+          content: "";
+          height: 2px;
+          width: 60px;
+          background-color: #ff7720;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+    }
+  }
